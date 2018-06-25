@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C5CAE9"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/question"
+            android:textSize="24sp"
+            android:layout_marginTop="8dp"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:id="@+id/question1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/question1"
+            android:textSize="18dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="24dp"
+            android:textAppearance="@android:style/TextAppearance.Medium"/>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/Q1a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text= "@string/gateandzuck"/>
+                 <RadioButton
+                android:id="@+id/Q1b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text= "Evan Spiegel and Jan Koum"/>
+            <RadioButton
+                android:id="@+id/Q1c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text= "@string/googlefounders"/>
+            <RadioButton
+                android:id="@+id/Q1d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text= "Mark Zukerberg"/>
+        </RadioGroup>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="@android:color/darker_gray"/>
+        <TextView
+            android:id="@+id/question2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/question2"
+            android:textAppearance="@android:style/TextAppearance.Medium"/>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/Q2a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text= "@string/billgates"/>
+            <RadioButton
+                android:id="@+id/Q2b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text= "@string/twitterfounders"/>
+            <RadioButton
+                android:id="@+id/Q2c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text= "@string/udacityfounders"/>
+            <RadioButton
+                android:id="@+id/Q2d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text= "Mark Zukerberg"/>
+        </RadioGroup>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="@android:color/darker_gray"/>
+        <TextView
+            android:id="@+id/question3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/question3"
+            android:textAppearance="@android:style/TextAppearance.Medium"/>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/Q3a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text= "Objects"/>
+            <RadioButton
+                android:id="@+id/Q3b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text= "Method"/>
+            <RadioButton
+                android:id="@+id/Q3c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text= "Function"/>
+            <RadioButton
+                android:id="@+id/Q3d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text= "Class"/>
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="@android:color/darker_gray"/>
+        <TextView
+            android:id="@+id/question4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/question4"
+            android:textAppearance="@android:style/TextAppearance.Medium"/>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/Q4a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text= "Jawed karim, Steve Chen and Chad Hurley"/>
+            <RadioButton
+                android:id="@+id/Q4b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text= "Kevin Systrom and Mike Krieger"/>
+            <RadioButton
+                android:id="@+id/Q4c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text= "Dennis Ritchie"/>
+            <RadioButton
+                android:id="@+id/Q4d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text= "James Gosling"/>
+        </RadioGroup>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="@android:color/darker_gray"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="16dp"
+            android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "submit"
+            android:onClick="submit"
+            android:textColor="#303F9F"/>
+
+        <TextView
+            android:id = "@+id/finalScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "@string/finalscore"
+            android:layout_marginLeft="70dp"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

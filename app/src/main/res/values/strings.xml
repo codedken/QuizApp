@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="question">QUESTIONS</string>
+    <string name="question1">1) Who is/are the founder(s) of Google?</string>
+    <string name="question2">2) Who is/are the founder(s) of Udacity?</string>
+    <string name="question3">3) One is the options below is the blueprint from which individual objects are created.</string>
+    <string name="question4">4) Who is/are the founder(s) of Youtube?</string>
+    <string name="googlefounders">Larry Page and Sergey Brin</string>
+    <string name="udacityfounders">Sebastian Thrun and David Stavens</string>
+    <string name="billgates">Bill Gates</string>
+    <string name="twitterfounders">Jack Dorsey and Glass Noah</string>
+    <string name="gateandzuck">Bill Gates and Mark Zuckerberg</string>
+    <string name="finalscore"></string>
+</resources>
